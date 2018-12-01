@@ -27,11 +27,14 @@ td {
 }
 
 table {
-
+    display: flex;
+    flex-direction: row;
     border-collapse: collapse;
     width: 50%;
     height: 40%;
     margin-top: 4%;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -53,26 +56,34 @@ table tr td:last-child {
 
 .endgame {
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
-  width: 200px;
-  top: 120px;
-  background-color: rgba(87, 117, 105, 0.9);
- flex-wrap: wrap;
-  text-align: center;
-  border-radius: 5px;
-  color: white;
-  font-size: 2em;
+    margin-top: 8%;
+    text-align: center;
+    width: 200px;
+    height: 140px;
+    background-color: rgba(87, 117, 105, 0.9);
+    position: absolute;
+    border-radius: 5px;
+    color: white;
+    font-size: 2em;
 }
 
 #btnReplay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: #fff;
     background-color: #B49594;
     border: none;
     outline: none;
     height: 50px;
     width: 50%;
+    margin-left: 25%;
+    text-align: center;
 border-radius: 3%;
+margin-top: 10%;
 
 }
