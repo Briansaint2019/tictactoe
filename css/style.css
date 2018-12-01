@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-family: 'Sedgwick Ave', cursive;
+    font-size: 4rem;
+}
+
+td {
+    border: 3px solid rgba(54, 54, 43, 0.84);
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    font-size: 70px;
+    cursor: pointer;
+    font-family: 'Sedgwick Ave', cursive;
+    text-shadow: 4px 4px 5px rgba(150, 150, 150, 1);
+}
+
+table {
+
+    border-collapse: collapse;
+    width: 50%;
+    height: 40%;
+    margin-top: 4%;
+
+}
+
+table tr:first-child td {
+    border-top: 0;
+}
+
+table tr:last-child td {
+    border-bottom: 0;
+}
+
+table tr td:first-child {
+    border-left: 0;
+}
+
+table tr td:last-child {
+    border-right: 0;
+}
+
+.endgame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  width: 200px;
+  top: 120px;
+  background-color: rgba(87, 117, 105, 0.9);
+ flex-wrap: wrap;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 2em;
+}
+
+#btnReplay{
+    color: #fff;
+    background-color: #B49594;
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 50%;
+border-radius: 3%;
+
+}
