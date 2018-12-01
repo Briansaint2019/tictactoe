@@ -135,18 +135,18 @@ function minMax(newBoard, player) {
 
     let bestMove;
     if (player === aiPlayer) {
-        let bestScore = -10000;
+        let bstScore = -10000;
         for (let i = 0; i < moves.length; i++) {
-            if (moves[i].score > bestScore) {
-                bestScore = moves[i].score;
+            if (moves[i].score > bstScore) {
+                bstScore = moves[i].score;
                 bestMove = i;
             }
         }
     } else {
-        let bestScore = 10000;
+        let bstScore = 10000;
         for (let i = 0; i < moves.length; i++) {
-            if (moves[i].score < bestScore) {
-                bestScore = moves[i].score;
+            if (moves[i].score < bstScore) {
+                bstScore = moves[i].score;
                 bestMove = i;
             }
         }
